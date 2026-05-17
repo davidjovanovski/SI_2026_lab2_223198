@@ -41,3 +41,14 @@
 | branch 3F | | | | * |
 
 Минималниот број на тест случаи за borrowBook според Every Branch критериумот е 4.
+
+
+## Тест случаи според критериумот Multiple condition
+| комбинација | тест |
+|---|---|
+| T ∨ T | празен title, празен author, фрла IllegalArgumentException |
+| T ∨ F | празен title, полн author, фрла IllegalArgumentException |
+| F ∨ T | полн title, празен author, фрла IllegalArgumentException |
+| F ∨ F | полн title, полн author, книгата се позајмува успешно |
+
+Минималниот број на тест случаи за овој услов според Multiple Condition критериумот е 4.
