@@ -44,6 +44,8 @@
 
 
 ## Тест случаи според критериумот Multiple condition
+
+### за метод borrowBookMultipleConditionTest
 | комбинација | тест |
 |---|---|
 | T ∨ T | празен title, празен author, фрла IllegalArgumentException |
@@ -51,4 +53,4 @@
 | F ∨ T | полн title, празен author, фрла IllegalArgumentException |
 | F ∨ F | полн title, полн author, книгата се позајмува успешно |
 
-Минималниот број на тест случаи за овој услов според Multiple Condition критериумот е 4.
+Минималниот број на тест случаи за овој метод според Multiple Condition критериумот е 4.
