@@ -28,3 +28,16 @@
 | line 9 | | * | |
 
 Минималниот број на тестови за функцијата searchBookByTitle според Every Statement критериумот е 3.
+
+
+## Тест случаи според критериумот Every branch
+| | test 1 | test 2 | test 3 | test 4 |
+|---|---|---|---|---|
+| branch 1T | * | | | |
+| branch 1F | | * | * | * |
+| branch 2T | | | * | * |
+| branch 2F | | * | | |
+| branch 3T | | | * | |
+| branch 3F | | | | * |
+
+Минималниот број на тест случаи за borrowBook според Every Branch критериумот е 4.
