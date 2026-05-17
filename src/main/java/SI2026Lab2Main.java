@@ -142,7 +142,7 @@ class Library {
 
 
 
-public class SI2026Lab1Main {
+public class SI2026Lab2Main {
     public static void main(String[] args) {
         Library library = new Library();
 
